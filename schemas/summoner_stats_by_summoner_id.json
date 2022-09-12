@@ -1,0 +1,32 @@
+[
+  {
+    "leagueId": "461d0ebc-d296-413d-b710-2a206d43fd56",
+    "queueType": "RANKED_FLEX_SR",
+    "tier": "SILVER",
+    "rank": "III",
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA",
+    "summonerName": "cramush",
+    "leaguePoints": 66,
+    "wins": 90,
+    "losses": 94,
+    "veteran": false,
+    "inactive": false,
+    "freshBlood": false,
+    "hotStreak": true
+  },
+  {
+    "leagueId": "369717ca-f40e-4f11-853b-418ed3549e1b",
+    "queueType": "RANKED_SOLO_5x5",
+    "tier": "SILVER",
+    "rank": "III",
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA",
+    "summonerName": "cramush",
+    "leaguePoints": 8,
+    "wins": 98,
+    "losses": 96,
+    "veteran": false,
+    "inactive": false,
+    "freshBlood": false,
+    "hotStreak": false
+  }
+]

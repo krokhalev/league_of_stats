@@ -1,0 +1,112 @@
+[
+  {
+    "championId": 202,
+    "championLevel": 7,
+    "championPoints": 368177,
+    "lastPlayTime": 1660170979000,
+    "championPointsSinceLastLevel": 346577,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 0,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 875,
+    "championLevel": 7,
+    "championPoints": 172843,
+    "lastPlayTime": 1660260613000,
+    "championPointsSinceLastLevel": 151243,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 0,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 99,
+    "championLevel": 7,
+    "championPoints": 148532,
+    "lastPlayTime": 1662761241000,
+    "championPointsSinceLastLevel": 126932,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 0,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 84,
+    "championLevel": 5,
+    "championPoints": 127873,
+    "lastPlayTime": 1662758854000,
+    "championPointsSinceLastLevel": 106273,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 2,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 141,
+    "championLevel": 7,
+    "championPoints": 114818,
+    "lastPlayTime": 1660258533000,
+    "championPointsSinceLastLevel": 93218,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 0,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 145,
+    "championLevel": 6,
+    "championPoints": 112672,
+    "lastPlayTime": 1659818785000,
+    "championPointsSinceLastLevel": 91072,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": false,
+    "tokensEarned": 2,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 19,
+    "championLevel": 5,
+    "championPoints": 63034,
+    "lastPlayTime": 1662935666000,
+    "championPointsSinceLastLevel": 41434,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 2,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 33,
+    "championLevel": 5,
+    "championPoints": 45448,
+    "lastPlayTime": 1660173280000,
+    "championPointsSinceLastLevel": 23848,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 2,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 106,
+    "championLevel": 5,
+    "championPoints": 44795,
+    "lastPlayTime": 1661115927000,
+    "championPointsSinceLastLevel": 23195,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 2,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  },
+  {
+    "championId": 9,
+    "championLevel": 5,
+    "championPoints": 44498,
+    "lastPlayTime": 1660253329000,
+    "championPointsSinceLastLevel": 22898,
+    "championPointsUntilNextLevel": 0,
+    "chestGranted": true,
+    "tokensEarned": 2,
+    "summonerId": "3-ZA1HvI62F-3TpCmEow7Ux1TGPu1Gx07mA7w16dqDne9eA"
+  }
+]
