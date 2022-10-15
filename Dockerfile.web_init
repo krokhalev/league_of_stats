@@ -1,0 +1,6 @@
+FROM node:16.15
+
+WORKDIR /app
+
+RUN npm install -g pnpm@7.1.0
+RUN pnpm create vite web -- --template vue-ts

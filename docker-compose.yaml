@@ -1,0 +1,49 @@
+version: '3.9'
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    command: pnpm run serve
+    networks:
+      - los
+    # environment:
+    #   - VITE_RTC_ROOM_URL=ws://localhost/api/rtc/room/socket
+    #   - VITE_SFU_TURN_URLS=turn:localhost?transport=tcp
+    #   - VITE_STORAGE_URL=/api/storage
+    volumes:
+      - ./web/src:/app/src
+      - ./web/public:/app/public
+
+  # server :
+  #   build:
+  #     context: ./service-go
+  #     dockerfile: Dockerfile
+  #   command: "go run ./cmd/confa/."
+  #   networks:
+  #     - confa
+  #   environment:
+  #     - LISTEN_WEB_ADDRESS=:80
+  #     - RTC_ADDRESS=http://rtc:8080
+  #     - LOG_FORMAT=console
+  #     - PUBLIC_KEY=$PUBLIC_KEY
+  #     - MONGO_HOSTS=mongo:27017
+  #     - MONGO_USER=confa
+  #     - MONGO_PASSWORD=confa
+  #     - MONGO_DATABASE=confa
+  #     - STORAGE_HOST=minio:80
+  #     - STORAGE_ACCESS_KEY=minio
+  #     - STORAGE_SECRET_KEY=miniominio
+  #     - STORAGE_PUBLIC_URL=/api/storage
+  #     - STORAGE_BUCKET_USER_UPLOADS=user-uploads
+  #     - STORAGE_BUCKET_USER_PUBLIC=user-public
+  #     - BEANSTALKD_POOL=beanstalkd:11300
+  #     - BEANSTALKD_TUBE_UPDATE_AVATAR=confa/update-avatar
+  #     - BEANSTALKD_TUBE_START_RECORDING=confa/start-recording
+  #     - BEANSTALKD_TUBE_STOP_RECORDING=confa/stop-recording
+  #   volumes:
+  #     - ./service-go:/app
+
+networks:
+  los:
+    name: los

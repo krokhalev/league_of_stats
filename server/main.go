@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"league_of_stats/schemas"
 	"net/http"
+	"server/schemas"
 	"time"
 )
 
@@ -262,7 +262,7 @@ func main() {
 	//GetSummonerInfoByName()
 	//GetSummonerStatsBySummonerId()
 	//GetSummonerMatchesListByPuuid()
-	//GetSummonerMatchInfoByMatchId()
+	GetSummonerMatchInfoByMatchId()
 	//GetSingleChampionInfoBySummonerIdAndChampionId()
 	//GetAllChampionsInfoBySummonerId()
 	//GetTopChampionsInfoBySummonerIdAndCount()
