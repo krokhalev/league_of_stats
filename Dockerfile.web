@@ -4,8 +4,8 @@ RUN npm install -g pnpm@7.1.0
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml ./
+COPY web ./
 
 RUN pnpm install
 
-COPY index.html .eslintrc.js .prettierrc.js apollo.config.js vite.config.ts tsconfig.json ./
+EXPOSE 3000

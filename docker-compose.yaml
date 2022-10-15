@@ -2,11 +2,13 @@ version: '3.9'
 services:
   web:
     build:
-      context: ./web
-      dockerfile: Dockerfile
-    command: pnpm run serve
-    networks:
-      - los
+      context: ./
+      dockerfile: Dockerfile.web
+    command: pnpm dev
+    ports:
+      - 3000:3000
+    # networks:
+    #   - los
     # environment:
     #   - VITE_RTC_ROOM_URL=ws://localhost/api/rtc/room/socket
     #   - VITE_SFU_TURN_URLS=turn:localhost?transport=tcp
