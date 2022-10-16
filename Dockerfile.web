@@ -5,7 +5,3 @@ RUN npm install -g pnpm@7.1.0
 WORKDIR /app
 
 COPY web ./
-
-RUN pnpm install
-
-EXPOSE 3000
