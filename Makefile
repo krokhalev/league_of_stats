@@ -9,7 +9,15 @@ init_web:
 
 .PHONY: start_web
 start_web:
-	docker-compose up web
+	docker-compose up -d web
+
+.PHONY: logs_web
+logs_web:
+	docker-compose logs -f web
+
+.PHONY: exec_web
+exec_web:
+	docker-compose exec web bash
 
 .PHONY: clean
 clean:
